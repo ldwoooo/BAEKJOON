@@ -15,8 +15,11 @@ def isPalindrome(s):
     c = 0
     return recursion(s, 0, len(s)-1, c)
 
-print(*isPalindrome('AAA'))
-print(*isPalindrome('ABBA'))
-print(*isPalindrome('ABABA'))
-print(*isPalindrome('ABCA'))
-print(*isPalindrome('PALINDROME'))
+N = int(input())
+words = []
+for i in range(N):
+    word = input()
+    words.append(word)
+
+for j in words:
+    print(*isPalindrome(j))
