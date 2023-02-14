@@ -15,7 +15,7 @@ for i in never_seen:                     # 보지도 못한 이름들이 듣지�
 
 never_heard_seen.sort()
 print(len(never_heard_seen))
-print('\n'.join(never_heard_seen))
+print('\n'.join(never_heard_seen)) 
 
 # ----------------------------------------------------------------------
 # 리스트 풀이. 시간초과
